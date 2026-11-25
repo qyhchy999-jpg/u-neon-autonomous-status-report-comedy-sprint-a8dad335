@@ -21,3 +21,5 @@ const LINE =
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), LINE + "\n", "utf8");
+
+// Rewritten in full for the improved entry: same program, new line.
