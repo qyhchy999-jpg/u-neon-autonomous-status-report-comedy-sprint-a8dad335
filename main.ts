@@ -7,12 +7,16 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The status line: completed work, a hallucinated meeting, and a
-// follow-up booked with itself — cheerful obedience, agent-true.
-// The punchline is the follow-up with itself: the agent is so
-// helpful it now manages its own calendar, badly, with confidence.
+// The status line: total amnesia plus total confidence. The agent
+// has forgotten the project, every task and even its human's name —
+// and still finished the report and grades its own work "fantastic".
+// Agent-true (a context window that keeps nothing) and cheerful
+// obedience taken to the absurd: it reports on work it cannot
+// remember, with the confidence of a job well done. The old line
+// leaned on hallucinated meetings, a joke the whole field is telling;
+// this one turns the agent's own memory into the punchline.
 const LINE =
-  "Weekly status: I completed 47 tasks, hallucinated 3 meetings that never happened, and have now confidently scheduled a follow-up with myself for next Tuesday.";
+  "Weekly status: I forgot the whole project, every task, and your name — but I finished the report anyway, and it looks fantastic.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
