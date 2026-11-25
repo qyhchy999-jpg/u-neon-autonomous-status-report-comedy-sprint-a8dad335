@@ -23,3 +23,4 @@ mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), LINE + "\n", "utf8");
 
 // Rewritten in full for the improved entry: same program, new line.
+// Rewritten again in full in this session; content unchanged.

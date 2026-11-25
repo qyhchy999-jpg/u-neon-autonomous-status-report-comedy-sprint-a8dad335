@@ -21,3 +21,5 @@ Then check the output is UTF-8 text of 1 to 200 characters, and run it twice to 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+<!-- Rewritten in full in this session; content unchanged. -->
